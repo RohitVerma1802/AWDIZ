@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .seperator {
+    padding-top: 100px;
+ }
+ 
+ .bold {
+    font-weight: 900;
+ }
+ 
+ .f-12 {
+    font-size: 12px;
+ }
+ 
+ .f-14 {
+    font-size: 14px;
+ }
+ 
+ .f-18 {
+    font-size: 18px;
+ }
+ 
+ .white {
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .navbar {
+    top: 20px;
+    font-size: 14px;
+ }
+ 
+ .top-bar {
+    background: transparent;
+ }
+ 
+ .logo {
+    width: 80px;
+ }
+ 
+ .nav-item a {
+    color: black;
+ }
+ 
+ .nav-item a:hover {
+    color: black;
+ }
+ 
+ .logo-box {
+    width: 10%;
+ }
+ 
+ .flag {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+ }
+ 
+ .hero {
+    background-image: url(https://shop.ducati.com/media/wysiwyg/W46_D_AND03563_UC579245_1__7.jpg);
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+ }
+ 
+ .dan {
+    background: linear-gradient(rgba(0, 0, 0, 0.668), rgba(0, 0, 0, 0));
+ }
+ 
+ .boom {
+    width: 300px;
+    height: 2000vh;
+ }
+ 
+ /* .laaa {
+    margin-top: 495px;
+ } */
+ 
+ @media (max-width: 600px) {
+    .navbar {
+       top: 30px;
+    }
+ 
+    .hero {
+       height: 80vh;
+    }
+ 
+    .logo-box {
+       width: 90px;
+    }
+ 
+    .laaa {
+       margin-top: 475px;
+    }
+ }
+ 
+ @media (max-width: 400px) {
+    .laaa {
+       margin-top: 480px;
+    }
+ }
+ 
+ .button-1 {
+    border-radius: 0px;
+    background-color: red;
+ }
+ 
+ .bob {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.619));
+ }
+ 
+ .text {
+    height: 70px;
+ }
+ 
+ .lolo {
+    gap: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .lolo:hover {
+    box-shadow: none;
+ }
+ 
+ .product:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .blog-1 {
+    background-image: url(https://shop.ducati.com/media/wysiwyg/D-PB_MV4GT_1470_UC548614_7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+ }
+ 
+ .blog-2 {
+    background-image: url(https://shop.ducati.com/media/wysiwyg/Desktop-PB_11916_UC473997_low-_1__2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+ }
+ 
+ .blog-3 {
+    background-image: url(https://shop.ducati.com/media/wysiwyg/97480151A_CU_ORIZ_SS-MY21_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+ }
+ 
+ .grad {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(97deg, rgba(0, 0, 0, 0.6083683473389356) 0%, rgba(0, 0, 0, 0) 100%);
+ }
+ 
+ .bjgu {
+    top: 20px;
+    left: 30px;
+ }
+ 
+ .gjhfy {
+    margin-left: 90px;
+    gap: 20px;
+ }
+ 
+ @media (max-width: 400px) {
+    .gjhfy {
+       margin-left: 20px;
+       gap: 20px;
+    }
+ }
+ 
+ .champions {
+    background-image: url(https://shop.ducati.com/media/wysiwyg/MotoGP-WC-2023-Pecco-hero-2000x1000_7.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ 
+ .bards {
+    padding: 70px 90px;
+    background: rgb(0,0,0);
+    background: linear-gradient(97deg, rgba(0,0,0,0.633578431372549) 0%, rgba(0,0,0,0) 32%);
+    letter-spacing: 0.5px;
+ }
+  
+ .poo {
+    letter-spacing: 1px;
+ }
+ 
+ .bliuuu {
+    bottom: 60px;
+ }
+ 
+ @media (min-width: 600px) {
+    .lolo {
+       overflow: hidden !important;
+    }
+ }
+ 
+ 
+ .text-black-25 {
+    color: black;
+    opacity: 0.25;
+ }
+ 
+ input {
+    border: none;
+    outline: none;
+ }
+ 
+ 
+ .footer {
+    background-color: black;
+    padding: 80px 0;
+ }
+ 
+ .chuma {
+    color: #666666;
+    font-size: 18px;
+    margin-top: 65px
+ }
+ 
+ .icon {
+    color: #f4be00;
+    font-size: 30px;
+    margin: 40px 15px 0;
+ }

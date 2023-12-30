@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sign-in-box{
+    margin: 50px auto;
+    /* border: 1px solid red; */
+    height: 400px;
+    width: 40%;
+}
+
+.header-logo{
+    /* border: 1px solid red; */
+    height: 57px;
+    width: 62%;
+}
+
+.email-para{
+    /* border: 1px solid red; */
+    width: 63%;
+    height: 42px;
+    margin-top: 20px;
+}
+
+.email-para p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.country-drop-down{
+    /* border: 1px solid red; */
+    height: 57px;
+    width: auto;
+}
+
+.country-drop-down span:first-child{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.country-drop-down span:nth-child(2){
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+input{
+    width: 62%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+::placeholder{
+    font-size: 17px;
+}
+
+.terms-policy{
+    /* border: 1px solid red; */
+    height: 41px;
+    width: 62%;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.terms-policy span:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.terms-policy span:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: grey;
+}
+
+.terms-policy span:nth-child(3){
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.terms-policy span:nth-child(4){
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    text-decoration: underline;
+}
+
+.btn{
+    height: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    width: 62%;
+    margin-top: 20px;
+}
+
+.btn button{
+    padding: 15px 37px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
